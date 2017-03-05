@@ -5,10 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <script src="main.js" type="text/javascript">
-
+  <h1>Calculando IMC</h1>
+  <div>
+    <label for="peso">Ingrese su peso :</label>
+    <input type="text" name="peso" id="peso" value="" placeholder="peso" autofocus="" required="">
+  </div>
+  <br>
+  <div>
+    <label for="talla">Ingrese su talla :</label>
+    <input type="text" name="talla" id="talla" value="" placeholder="talla" autofocus="" required="">
+  </div>
+  <br>
+  <button type="button" onclick="calculandoImc();return false" type="submit" name="button">Calcular</button>
+  <br>
+  <br>
+  <div id="calculo"></div>
+  <script src="js/main.js" type="text/javascript">
   </script>
 </body>
 </html>
