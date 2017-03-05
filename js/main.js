@@ -1,4 +1,5 @@
 function calculandoImc(){
+
   var peso = document.getElementById("peso").value;
   var talla =document.getElementById("talla").value;
 
@@ -15,4 +16,5 @@ function calculandoImc(){
   }else{
     document.getElementById("calculo").innerHTML="Su IMC es de : " +imc + " " + "tiene signos de + "<mark>" +desnutrición" +"</mark>";
   }
+
 }
